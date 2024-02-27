@@ -26,7 +26,7 @@ export async function POST(request: NextRequest, response: NextResponse) {
                 title: req.title,
                 quantity: Number(req.quantity),
                 unit_price: Number(req.price),
-                currency_id: "ARS"
+                // currency_id: "ARS"
             }],
             back_urls: {
                 success: "https://nextjs.org/docs/getting-started/installation",
