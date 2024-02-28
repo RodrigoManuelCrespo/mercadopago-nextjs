@@ -24,9 +24,9 @@ export async function POST(request: NextRequest, response: NextResponse) {
         const body: any = {
             items: [...req.items],
             back_urls: {
-                success: "https://nextjs.org/docs/getting-started/installation",
-                failure: "https://nextjs.org/docs/getting-started/installation",
-                pending: "https://nextjs.org/docs/getting-started/installation",
+                success: "http://localhost:19006/",
+                failure: "http://localhost:19006/",
+                pending: "http://localhost:19006/",
             },
             auto_return: "approved"
         }
